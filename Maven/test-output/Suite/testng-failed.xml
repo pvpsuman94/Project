@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestTwo(failed)">
+    <classes>
+      <class name="com.maven.test.GoogleSearch">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="miNoteSeven"/>
+          <include name="performAction"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logoTitle"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.maven.test.GoogleSearch -->
+    </classes>
+  </test> <!-- TestTwo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
