@@ -16,7 +16,6 @@ public class WindowHandle extends Browser {
 		for(String newTab: wh) {
 			try {
 				driver.switchTo().window(newTab);
-				driver.getTitle();
 				driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
 			} catch (Exception e) {
 				System.out.println("Element not found");
